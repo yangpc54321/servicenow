@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
         <sys_created_on>2020-04-21 14:22:32</sys_created_on>
-        <sys_id>e01f82351bd0d450bfd6422dbc4bcb48</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>d52f5e341b78501011e4ed3abc4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Team Name</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
         <sys_update_name>sys_dictionary_x_jsolr_teamnotifi_teams_info_team</sys_update_name>
-        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
-        <sys_updated_on>2020-04-22 06:19:04</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 09:27:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
