@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-orlando-12-11-2019__patch1-02-19-2020</compiler_build>
+        <compiler_build>glide-orlando-12-11-2019__patch1a-04-06-2020</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>message_notification</internal_name>
         <label_cache>[{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.channel","label":"2.2➛Channels Record➛Channel Name","reference":"","reference_display":"Channel Name","type":"string","base_type":"string","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"channel"},{"name":"b9ea774e-3241-4ef0-b57c-fc7957569c6d.table_name","label":"2.2.1.2➛Notifications Table","reference":"x_jsolr_teamnotifi_notifications","reference_display":"Notifications","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b9ea774e-3241-4ef0-b57c-fc7957569c6d.record","label":"2.2.1.2➛Notifications Record","reference":"x_jsolr_teamnotifi_notifications","reference_display":"Notifications","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.work_notes_list","label":"Trigger➛Incident Record➛Work notes list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"incident","column_name":"work_notes_list"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger➛Incident Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.team_name.active","label":"2.2➛Channels Record➛Team Name➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_jsolr_teamnotifi_teams_info","column_name":"active"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.active","label":"2.2➛Channels Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"active"},{"name":"98ec3d9b-5528-4113-8f42-fbbc806bb436.item.condition","label":"2➛Rules Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_jsolr_teamnotifi_rules","column_name":"condition"},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger➛Incident Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"incident","column_name":"sys_created_by"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.incoming_webhook","label":"2.2➛Channels Record➛Incoming Webhook","reference":"","reference_display":"Incoming Webhook","type":"string","base_type":"string","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"incoming_webhook"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item","label":"2.2➛Channels Record","reference":"x_jsolr_teamnotifi_channel","reference_display":"Channels","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger➛Incident Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"incident","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.caller_id","label":"Trigger➛Incident Record➛Caller","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"caller_id"},{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{}},{"name":"98ec3d9b-5528-4113-8f42-fbbc806bb436.item.channel","label":"2➛Rules Record➛Channel","reference":"x_jsolr_teamnotifi_channel","reference_display":"Channels","type":"glide_list","base_type":"glide_list","parent_table_name":"x_jsolr_teamnotifi_rules","column_name":"channel"},{"name":"98ec3d9b-5528-4113-8f42-fbbc806bb436.item","label":"2➛Rules Record","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Table","label":"1➛Rules Table","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Records","label":"1➛Rules Records","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3161674-fcc0-4ac9-8721-baed9a9d86cc.Table","label":"1➛Rules Table","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3161674-fcc0-4ac9-8721-baed9a9d86cc.Record","label":"1➛Rules Record","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"},{"name":"Created or Updated_1.current.work_notes","label":"Trigger➛Incident Record➛Work notes","reference":"","reference_display":"Work notes","type":"journal_input","base_type":"journal_input","parent_table_name":"incident","column_name":"work_notes"},{"name":"Created or Updated_1.current.state","label":"Trigger➛Incident Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"incident","column_name":"state"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger➛Incident Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.team_name","label":"2.2➛Channels Record➛Team Name","reference":"x_jsolr_teamnotifi_teams_info","reference_display":"Teams","type":"reference","base_type":"reference","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"team_name"},{"name":"fd68413b-d0bf-423b-a678-b3ad9b0d5613.status","label":"2.2.1.3➛status","reference_display":"status","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fd68413b-d0bf-423b-a678-b3ad9b0d5613.error_message","label":"2.2.1.3➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"82e4234c-4e06-4f26-918e-5708b9d30973.status","label":"2.2.1.3➛status","reference_display":"status","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"82e4234c-4e06-4f26-918e-5708b9d30973.error_message","label":"2.2.1.3➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot/>
+        <latest_snapshot>1989b8821ba810107bd3dce9bc4bcb26</latest_snapshot>
         <master_snapshot>e52d8f741ba4d010bfd6422dbc4bcb53</master_snapshot>
         <name>Message Notification </name>
         <natlang/>
@@ -83,10 +83,10 @@
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
         <sys_created_on>2020-04-23 12:37:22</sys_created_on>
         <sys_id>0cda88aa1b981850bfd6422dbc4bcb54</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
-        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 13:00:10</sys_updated_on>
         <ui_id>b9ea774e-3241-4ef0-b57c-fc7957569c6d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0cda88aa1b981850bfd6422dbc4bcb54"/>
@@ -311,10 +311,10 @@
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
         <sys_created_on>2020-04-23 07:24:50</sys_created_on>
         <sys_id>824343d61bd41850bfd6422dbc4bcb71</sys_id>
-        <sys_mod_count>120</sys_mod_count>
+        <sys_mod_count>122</sys_mod_count>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
-        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 13:00:10</sys_updated_on>
         <ui_id>2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=824343d61bd41850bfd6422dbc4bcb71"/>
@@ -348,7 +348,8 @@
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="">16eacf433be0030057a4a2e334efc4db</action_type>
+        <action_inputs/>
+        <action_type display_value="Post Incident Details">16eacf433be0030057a4a2e334efc4db</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>16eacf433be0030057a4a2e334efc4db</compiled_snapshot>
@@ -360,10 +361,10 @@
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
         <sys_created_on>2020-05-01 06:10:46</sys_created_on>
         <sys_id>930ffb781b28d010bfd6422dbc4bcb74</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
-        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 13:00:10</sys_updated_on>
         <ui_id>8b463c46-870f-4974-9cab-64a6af85be31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=930ffb781b28d010bfd6422dbc4bcb74"/>
@@ -395,6 +396,67 @@
         <value/>
         <variable display_value="">56ea03833be0030057a4a2e334efc402</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=930ffb781b28d010bfd6422dbc4bcb74"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_additional_message</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>c37f77b81b28d010bfd6422dbc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:12:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>4b7f77b81b28d010bfd6422dbc4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:12:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.channel}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_incident</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:10:46</sys_created_on>
+        <sys_id>970ffb781b28d010bfd6422dbc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:10:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_override_default_fields</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>037f77b81b28d010bfd6422dbc4bcb21</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:10:46</sys_created_on>
+        <sys_id>5f0ffb781b28d010bfd6422dbc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:10:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.incoming_webhook}}</value>
+    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT INfc32d3421bdcd450bfd6422dbc4bcb3f"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment>インシデント作成または更新時に以下のアクションが実行される</comment>
@@ -729,10 +791,10 @@
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
         <sys_created_on>2020-04-23 12:37:22</sys_created_on>
         <sys_id>0cda88aa1b981850bfd6422dbc4bcb54</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
-        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 13:00:10</sys_updated_on>
         <ui_id>b9ea774e-3241-4ef0-b57c-fc7957569c6d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0cda88aa1b981850bfd6422dbc4bcb54"/>
@@ -803,10 +865,10 @@
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
         <sys_created_on>2020-04-23 07:24:50</sys_created_on>
         <sys_id>824343d61bd41850bfd6422dbc4bcb71</sys_id>
-        <sys_mod_count>120</sys_mod_count>
+        <sys_mod_count>122</sys_mod_count>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
-        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 13:00:10</sys_updated_on>
         <ui_id>2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=824343d61bd41850bfd6422dbc4bcb71"/>
@@ -840,7 +902,8 @@
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="">16eacf433be0030057a4a2e334efc4db</action_type>
+        <action_inputs/>
+        <action_type display_value="Post Incident Details">16eacf433be0030057a4a2e334efc4db</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>16eacf433be0030057a4a2e334efc4db</compiled_snapshot>
@@ -852,10 +915,10 @@
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
         <sys_created_on>2020-05-01 06:10:46</sys_created_on>
         <sys_id>930ffb781b28d010bfd6422dbc4bcb74</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
-        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-04 13:00:10</sys_updated_on>
         <ui_id>8b463c46-870f-4974-9cab-64a6af85be31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=930ffb781b28d010bfd6422dbc4bcb74"/>
@@ -887,6 +950,67 @@
         <value/>
         <variable display_value="">56ea03833be0030057a4a2e334efc402</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=930ffb781b28d010bfd6422dbc4bcb74"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_additional_message</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>c37f77b81b28d010bfd6422dbc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:12:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>4b7f77b81b28d010bfd6422dbc4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:12:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.channel}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_incident</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:10:46</sys_created_on>
+        <sys_id>970ffb781b28d010bfd6422dbc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:10:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_override_default_fields</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>037f77b81b28d010bfd6422dbc4bcb21</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>930ffb781b28d010bfd6422dbc4bcb74</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:10:46</sys_created_on>
+        <sys_id>5f0ffb781b28d010bfd6422dbc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:10:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.incoming_webhook}}</value>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT IN37e7c39a1bd41850bfd6422dbc4bcbae,4a4343d61bd41850bfd6422dbc4bcb87,4a4343d61bd41850bfd6422dbc4bcb8b,73e7c39a1bd41850bfd6422dbc4bcbaa"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">7fe7c39a1bd41850bfd6422dbc4bcbad</block>
@@ -1173,11 +1297,11 @@
         <sys_created_on>2020-04-22 13:26:14</sys_created_on>
         <sys_id>066ccf4e1b9cd450bfd6422dbc4bcb1c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6_table_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-22 13:26:14</sys_updated_on>
         <url/>
@@ -1196,11 +1320,11 @@
         <sys_created_on>2020-04-22 13:51:32</sys_created_on>
         <sys_id>3c32d3421bdcd450bfd6422dbc4bcb3a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Changed Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6_changed_fields_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-22 13:51:32</sys_updated_on>
         <url/>
@@ -1219,11 +1343,11 @@
         <sys_created_on>2020-04-22 13:26:14</sys_created_on>
         <sys_id>466ccf4e1b9cd450bfd6422dbc4bcb16</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6_current_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-22 13:26:14</sys_updated_on>
         <url/>
@@ -1234,7 +1358,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"352dcf741ba4d010bfd6422dbc4bcb15","name":"plan"}}</plan>
         <plan_id>bbcb474e1b9cd450bfd6422dbc4bcba6</plan_id>
-        <snapshot>f64250891b68d010bfd6422dbc4bcb9a</snapshot>
+        <snapshot>1989b8821ba810107bd3dce9bc4bcb26</snapshot>
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
         <sys_created_on>2020-05-01 02:32:46</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -1290,8 +1414,9 @@
     <sys_hub_flow_component action="delete_multiple" query="flow=e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT IN1cb1080d1b28d010bfd6422dbc4bcb9a,292d8f741ba4d010bfd6422dbc4bcb99,352d8f741ba4d010bfd6422dbc4bcbaa,612d8f741ba4d010bfd6422dbc4bcb96,a12d8f741ba4d010bfd6422dbc4bcb93,e12d8f741ba4d010bfd6422dbc4bcb9f,ed2d8f741ba4d010bfd6422dbc4bcb8e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="">16eacf433be0030057a4a2e334efc4db</action_type>
-        <action_type_parent display_value="">65672e4b3ba0030057a4a2e334efc496</action_type_parent>
+        <action_inputs/>
+        <action_type display_value="Post Incident Details">16eacf433be0030057a4a2e334efc4db</action_type>
+        <action_type_parent display_value="Post Incident Details">65672e4b3ba0030057a4a2e334efc496</action_type_parent>
         <comment/>
         <compiled_snapshot>16eacf433be0030057a4a2e334efc4db</compiled_snapshot>
         <display_text/>
@@ -1309,6 +1434,43 @@
         <ui_id>8b463c46-870f-4974-9cab-64a6af85be31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1cb1080d1b28d010bfd6422dbc4bcb9a"/>
+    <sys_element_mapping action="delete_multiple" query="id=1cb1080d1b28d010bfd6422dbc4bcb9a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>1cb1080d1b28d010bfd6422dbc4bcb9a</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:18</sys_created_on>
+        <sys_id>5cb1080d1b28d010bfd6422dbc4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.channel}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_incident</field>
+        <id>1cb1080d1b28d010bfd6422dbc4bcb9a</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:18</sys_created_on>
+        <sys_id>14b1080d1b28d010bfd6422dbc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>1cb1080d1b28d010bfd6422dbc4bcb9a</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:18</sys_created_on>
+        <sys_id>d4b1080d1b28d010bfd6422dbc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.incoming_webhook}}</value>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c24343d61bd41850bfd6422dbc4bcb8b</block>
         <comment>Rulesをループ</comment>
@@ -1908,8 +2070,9 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT IN1cb1080d1b28d010bfd6422dbc4bcb9a,352d8f741ba4d010bfd6422dbc4bcbaa,e12d8f741ba4d010bfd6422dbc4bcb9f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="">16eacf433be0030057a4a2e334efc4db</action_type>
-        <action_type_parent display_value="">65672e4b3ba0030057a4a2e334efc496</action_type_parent>
+        <action_inputs/>
+        <action_type display_value="Post Incident Details">16eacf433be0030057a4a2e334efc4db</action_type>
+        <action_type_parent display_value="Post Incident Details">65672e4b3ba0030057a4a2e334efc496</action_type_parent>
         <comment/>
         <compiled_snapshot>16eacf433be0030057a4a2e334efc4db</compiled_snapshot>
         <display_text/>
@@ -1927,6 +2090,43 @@
         <ui_id>8b463c46-870f-4974-9cab-64a6af85be31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1cb1080d1b28d010bfd6422dbc4bcb9a"/>
+    <sys_element_mapping action="delete_multiple" query="id=1cb1080d1b28d010bfd6422dbc4bcb9a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>1cb1080d1b28d010bfd6422dbc4bcb9a</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:18</sys_created_on>
+        <sys_id>5cb1080d1b28d010bfd6422dbc4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.channel}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_incident</field>
+        <id>1cb1080d1b28d010bfd6422dbc4bcb9a</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:18</sys_created_on>
+        <sys_id>14b1080d1b28d010bfd6422dbc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>1cb1080d1b28d010bfd6422dbc4bcb9a</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:18</sys_created_on>
+        <sys_id>d4b1080d1b28d010bfd6422dbc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_16eacf433be0030057a4a2e334efc4db</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.incoming_webhook}}</value>
+    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2643,11 +2843,11 @@
         <sys_created_on>2020-05-01 02:32:45</sys_created_on>
         <sys_id>2d2d8f741ba4d010bfd6422dbc4bcb7e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Changed Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53_changed_fields_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
         <url/>
@@ -2666,11 +2866,11 @@
         <sys_created_on>2020-05-01 02:32:45</sys_created_on>
         <sys_id>e92d8f741ba4d010bfd6422dbc4bcb5e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53_current_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
         <url/>
@@ -2689,11 +2889,11 @@
         <sys_created_on>2020-05-01 02:32:45</sys_created_on>
         <sys_id>e92d8f741ba4d010bfd6422dbc4bcb87</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53_table_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
         <url/>

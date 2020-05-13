@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="DELETE">
+        <example_value/>
+        <name>channel_name</name>
+        <required>false</required>
+        <short_description>チャンネル名</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-24 12:24:54</sys_created_on>
+        <sys_id>e96115b61b945850bfd6422dbc4bcbcd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>channel_name</sys_name>
+        <sys_package display_value="JIM Notification （アプリの内容を月末まで編集しないでください）" source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification （アプリの内容を月末まで編集しないでください）">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_e96115b61b945850bfd6422dbc4bcbcd</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-24 12:30:22</sys_updated_on>
+        <web_service_definition display_value="SearchNotificationAPI">e22191b61b945850bfd6422dbc4bcb03</web_service_definition>
+    </sys_ws_query_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</application>
+        <file_path/>
+        <instance_id>cbf51b83db2b081442b321c4059619e1</instance_id>
+        <instance_name>jsoldev</instance_name>
+        <name>sys_ws_query_parameter_e96115b61b945850bfd6422dbc4bcbcd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value/><name>channel_name</name><required>false</required><short_description>チャンネル名</short_description><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>you.P04865@jsol.co.jp</sys_created_by><sys_created_on>2020-04-24 12:24:54</sys_created_on><sys_id>e96115b61b945850bfd6422dbc4bcbcd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>channel_name</sys_name><sys_package display_value="JIM Notification （アプリの内容を月末まで編集しないでください）" source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package><sys_policy/><sys_scope display_value="JIM Notification （アプリの内容を月末まで編集しないでください）">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope><sys_update_name>sys_ws_query_parameter_e96115b61b945850bfd6422dbc4bcbcd</sys_update_name><sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by><sys_updated_on>2020-04-24 12:30:22</sys_updated_on><web_service_definition display_value="SearchNotificationAPI">e22191b61b945850bfd6422dbc4bcb03</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+        <payload_hash>-439461313</payload_hash>
+        <record_name>channel_name</record_name>
+        <reverted_from/>
+        <source>132a8a311bd0d450bfd6422dbc4bcbba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-24 12:30:22</sys_created_on>
+        <sys_id>9fc251f61b945850bfd6422dbc4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171ac2adc4d0000001</sys_recorded_at>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-24 12:30:22</sys_updated_on>
+        <type>Scripted REST Query Parameter</type>
+        <update_guid>1bc251f60c945850536dc3dc923e6a37</update_guid>
+        <update_guid_history>1bc251f60c945850536dc3dc923e6a37:-439461313,cf811d767b945850d6da9b98a257e5c6:1722806206</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-24 12:45:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_query_parameter">sys_ws_query_parameter</sys_db_object>
+        <sys_id>298ae00b75ad4dfe8917211ad9d72591</sys_id>
+        <sys_metadata>e96115b61b945850bfd6422dbc4bcbcd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>channel_name</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_scope_delete display_value="">00ce58cc553e4f44946be225e3ac8e99</sys_scope_delete>
+        <sys_update_name>sys_ws_query_parameter_e96115b61b945850bfd6422dbc4bcbcd</sys_update_name>
+        <sys_update_version display_value="sys_ws_query_parameter_e96115b61b945850bfd6422dbc4bcbcd">9fc251f61b945850bfd6422dbc4bcb37</sys_update_version>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-24 12:45:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

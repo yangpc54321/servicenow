@@ -39,6 +39,22 @@
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=9592dd6c1b389410bfd6422dbc4bcb13"/>
     <sys_variable_value action="delete_multiple" query="document_key=9592dd6c1b389410bfd6422dbc4bcb13"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=9592dd6c1b389410bfd6422dbc4bcb13^sys_idNOT INb192dd6c1b389410bfd6422dbc4bcb84"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="doXXXX">9592dd6c1b389410bfd6422dbc4bcb13</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b192dd6c1b389410bfd6422dbc4bcb84","name":"plan"}}</plan>
+        <snapshot>7192dd6c1b389410bfd6422dbc4bcb66</snapshot>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-12 09:14:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b192dd6c1b389410bfd6422dbc4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-12 09:14:30</sys_updated_on>
+    </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <acls/>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_jsolr_teamnotifi.AjaxScriptInclude</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AjaxScriptInclude</name>
+        <script><![CDATA[var AjaxScriptInclude = Class.create();
+AjaxScriptInclude.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    greetingFunction: function() {
+        var userName = this.getParameter('sysparm_my_name');
+        return 'Hiya, ' + userName + '.';
+    }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-27 06:19:07</sys_created_on>
+        <sys_id>157a5fef1b1418507bd3dce9bc4bcb6b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>AjaxScriptInclude</sys_name>
+        <sys_package display_value="JIM Notification （アプリの内容を月末まで編集しないでください）" source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="JIM Notification （アプリの内容を月末まで編集しないでください）">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_script_include_157a5fef1b1418507bd3dce9bc4bcb6b</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-27 06:31:54</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</application>
+        <file_path/>
+        <instance_id>cbf51b83db2b081442b321c4059619e1</instance_id>
+        <instance_name>jsoldev</instance_name>
+        <name>sys_script_include_157a5fef1b1418507bd3dce9bc4bcb6b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_jsolr_teamnotifi.AjaxScriptInclude&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;AjaxScriptInclude&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AjaxScriptInclude = Class.create();
+AjaxScriptInclude.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    greetingFunction: function() {
+        var userName = this.getParameter('sysparm_my_name');
+        return 'Hiya, ' + userName + '.';
+    }
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;you.P04865@jsol.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-27 06:19:07&lt;/sys_created_on&gt;&lt;sys_id&gt;157a5fef1b1418507bd3dce9bc4bcb6b&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;AjaxScriptInclude&lt;/sys_name&gt;&lt;sys_package display_value="JIM Notification （アプリの内容を月末まで編集しないでください）" source="x_jsolr_teamnotifi"&gt;d72a8a311bd0d450bfd6422dbc4bcbb7&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="JIM Notification （アプリの内容を月末まで編集しないでください）"&gt;d72a8a311bd0d450bfd6422dbc4bcbb7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_157a5fef1b1418507bd3dce9bc4bcb6b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;you.P04865@jsol.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-27 06:31:54&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1302530669</payload_hash>
+        <record_name>AjaxScriptInclude</record_name>
+        <reverted_from/>
+        <source>132a8a311bd0d450bfd6422dbc4bcbba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-27 06:31:54</sys_created_on>
+        <sys_id>f18d9b631b5418507bd3dce9bc4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171ba55c26e0000001</sys_recorded_at>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-27 06:31:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7d8d9b63ec541850934c3b6ead3dd639</update_guid>
+        <update_guid_history>7d8d9b63ec541850934c3b6ead3dd639:-1302530669,476d1b6317541850416d618e690508e5:-1562248217,af0d97632c541850a7b623bb34463228:1718918587,9d8b1b237f541850d84fe131e71df814:-1881576536,457b97231f54185056c1e533606404e8:1996340521,336b93eff514185075e11fac4ef49757:-1352338406,23da5bef8d141850959a03a4b63047e7:1530562172,2a9a5fef751418507c13e925ec785875:566286371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-27 10:03:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>006e563be62d4bd680f3c317dfeec339</sys_id>
+        <sys_metadata>157a5fef1b1418507bd3dce9bc4bcb6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AjaxScriptInclude</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_scope_delete display_value="">00ce58cc553e4f44946be225e3ac8e99</sys_scope_delete>
+        <sys_update_name>sys_script_include_157a5fef1b1418507bd3dce9bc4bcb6b</sys_update_name>
+        <sys_update_version display_value="sys_script_include_157a5fef1b1418507bd3dce9bc4bcb6b">f18d9b631b5418507bd3dce9bc4bcb3a</sys_update_version>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-27 10:03:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

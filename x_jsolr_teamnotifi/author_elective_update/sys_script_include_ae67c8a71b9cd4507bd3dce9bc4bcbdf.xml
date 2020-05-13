@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_jsolr_teamnotifi.updateProductPrice </api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>updateProductPrice </name>
+        <script><![CDATA[var updateProductPrice = Class.create();
+updateProductPrice.prototype = {
+    initialize: function() {},
+    update: function(data) {
+      return 'aaa';
+    },
+    type: 'updateProductPrice'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-26 14:56:49</sys_created_on>
+        <sys_id>ae67c8a71b9cd4507bd3dce9bc4bcbdf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>updateProductPrice </sys_name>
+        <sys_package display_value="JIM Notification （アプリの内容を月末まで編集しないでください）" source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification （アプリの内容を月末まで編集しないでください）">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_script_include_ae67c8a71b9cd4507bd3dce9bc4bcbdf</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-26 15:04:08</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</application>
+        <file_path/>
+        <instance_id>cbf51b83db2b081442b321c4059619e1</instance_id>
+        <instance_name>jsoldev</instance_name>
+        <name>sys_script_include_ae67c8a71b9cd4507bd3dce9bc4bcbdf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_jsolr_teamnotifi.updateProductPrice &lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;updateProductPrice &lt;/name&gt;&lt;script&gt;&lt;![CDATA[var updateProductPrice = Class.create();
+updateProductPrice.prototype = {
+    initialize: function() {},
+    update: function(data) {
+      return 'aaa';
+    },
+    type: 'updateProductPrice'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;you.P04865@jsol.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-26 14:56:49&lt;/sys_created_on&gt;&lt;sys_id&gt;ae67c8a71b9cd4507bd3dce9bc4bcbdf&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;updateProductPrice &lt;/sys_name&gt;&lt;sys_package display_value="JIM Notification （アプリの内容を月末まで編集しないでください）" source="x_jsolr_teamnotifi"&gt;d72a8a311bd0d450bfd6422dbc4bcbb7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="JIM Notification （アプリの内容を月末まで編集しないでください）"&gt;d72a8a311bd0d450bfd6422dbc4bcbb7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_ae67c8a71b9cd4507bd3dce9bc4bcbdf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;you.P04865@jsol.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-26 15:04:08&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>966060130</payload_hash>
+        <record_name>updateProductPrice </record_name>
+        <reverted_from/>
+        <source>132a8a311bd0d450bfd6422dbc4bcbba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-26 15:04:08</sys_created_on>
+        <sys_id>d329442b1b9cd4507bd3dce9bc4bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171b7045c2d0000001</sys_recorded_at>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-26 15:04:08</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>5f29442b179cd45021a3598a4770d838</update_guid>
+        <update_guid_history>5f29442b179cd45021a3598a4770d838:966060130,04b7c4e7259cd45080680e7f622dac91:-444495714,5c8708e7979cd4509313d68d4d1cebb9:1800909310</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-27 10:03:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1e9e2941ef954e9587af084da61c69e9</sys_id>
+        <sys_metadata>ae67c8a71b9cd4507bd3dce9bc4bcbdf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>updateProductPrice </sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_scope_delete display_value="">00ce58cc553e4f44946be225e3ac8e99</sys_scope_delete>
+        <sys_update_name>sys_script_include_ae67c8a71b9cd4507bd3dce9bc4bcbdf</sys_update_name>
+        <sys_update_version display_value="sys_script_include_ae67c8a71b9cd4507bd3dce9bc4bcbdf">d329442b1b9cd4507bd3dce9bc4bcb39</sys_update_version>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-27 10:03:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

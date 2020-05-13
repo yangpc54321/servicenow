@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>team</element>
-            <list_id display_value="x_jsolr_teamnotifi_teams_info" element="NULL" name="x_jsolr_teamnotifi_teams_info" parent="NULL" relationship="NULL" sys_domain="global" view="d4eb32501b30101011e4ed3abc4bcb6c">1e10958e1b58d450bfd6422dbc4bcb47</list_id>
+            <list_id display_value="x_jsolr_teamnotifi_teams_info" element="NULL" name="x_jsolr_teamnotifi_teams_info" parent="NULL" relationship="NULL" sys_domain="global" view="324813431b230010bfd6422dbc4bcb59">1e10958e1b58d450bfd6422dbc4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
             <sys_updated_on>2020-04-22 04:23:07</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">d4eb32501b30101011e4ed3abc4bcb6c</view>
+            <view display_value="Reference List" name="sys_ref_list">324813431b230010bfd6422dbc4bcb59</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

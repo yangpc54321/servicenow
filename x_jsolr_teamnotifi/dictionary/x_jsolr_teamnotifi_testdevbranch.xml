@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TestDevBranch" max_length="40" name="x_jsolr_teamnotifi_testdevbranch" type="collection"/>
+</database>

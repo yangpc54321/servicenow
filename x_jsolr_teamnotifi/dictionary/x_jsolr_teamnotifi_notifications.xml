@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Notifications" max_length="40" name="x_jsolr_teamnotifi_notifications" type="collection">
+    <element label="Notifications" max_length="40" name="x_jsolr_teamnotifi_notifications" sizeclass="168" type="collection">
         <element label="Assigend to" max_length="32" name="assigend_to" read_only="true" reference="sys_user" type="reference"/>
         <element label="Channel" max_length="32" name="channel" read_only="true" reference="x_jsolr_teamnotifi_channel" type="reference"/>
         <element label="Content" max_length="40" name="content" read_only="true" type="string"/>

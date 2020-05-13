@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Channels" max_length="40" name="x_jsolr_teamnotifi_channel" type="collection">
+    <element label="Channels" max_length="40" name="x_jsolr_teamnotifi_channel" sizeclass="2" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element display="true" label="Channel Name" mandatory="true" max_length="40" name="channel" type="string"/>
         <element label="Incoming Webhook" mandatory="true" max_length="400" name="incoming_webhook" type="string"/>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="filter" table="x_jsolr_teamnotifi_rules" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>filter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- New choice --</label>
+            <language>en</language>
+            <name>x_jsolr_teamnotifi_rules</name>
+            <sequence/>
+            <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+            <sys_created_on>2020-04-22 11:17:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16fea28a1b5cd450bfd6422dbc4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+            <sys_updated_on>2020-04-22 11:17:38</sys_updated_on>
+            <value>-- New choice --</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>filter</element>
+            <name>x_jsolr_teamnotifi_rules</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+            <sys_created_on>2020-04-22 11:17:38</sys_created_on>
+            <sys_id>5efea28a1b5cd450bfd6422dbc4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>filter</sys_name>
+            <sys_package display_value="JIM Notification" source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="JIM Notification">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+            <sys_update_name>sys_choice_x_jsolr_teamnotifi_rules_filter</sys_update_name>
+            <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+            <sys_updated_on>2020-04-22 11:17:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</application>
+        <file_path/>
+        <instance_id>cbf51b83db2b081442b321c4059619e1</instance_id>
+        <instance_name>jsoldev</instance_name>
+        <name>sys_choice_x_jsolr_teamnotifi_rules_filter</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="filter" table="x_jsolr_teamnotifi_rules" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>filter</element><hint/><inactive>false</inactive><label>-- New choice --</label><language>en</language><name>x_jsolr_teamnotifi_rules</name><sequence/><sys_created_by>you.P04865@jsol.co.jp</sys_created_by><sys_created_on>2020-04-22 11:17:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>16fea28a1b5cd450bfd6422dbc4bcbc9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by><sys_updated_on>2020-04-22 11:17:38</sys_updated_on><value>-- New choice --</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>filter</element><name>x_jsolr_teamnotifi_rules</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>you.P04865@jsol.co.jp</sys_created_by><sys_created_on>2020-04-22 11:17:38</sys_created_on><sys_id>5efea28a1b5cd450bfd6422dbc4bcbc9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>filter</sys_name><sys_package display_value="JIM Notification" source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package><sys_policy/><sys_scope display_value="JIM Notification">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope><sys_update_name>sys_choice_x_jsolr_teamnotifi_rules_filter</sys_update_name><sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by><sys_updated_on>2020-04-22 11:17:38</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1044332003</payload_hash>
+        <record_name>Rules.Filter</record_name>
+        <reverted_from/>
+        <source>132a8a311bd0d450bfd6422dbc4bcbba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 11:17:38</sys_created_on>
+        <sys_id>1afea28a1b5cd450bfd6422dbc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171a19b8cbe0000001</sys_recorded_at>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-22 11:17:38</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>92fea28a8b5cd4506dfc79b4437f2fcb</update_guid>
+        <update_guid_history>92fea28a8b5cd4506dfc79b4437f2fcb:1044332003</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 11:19:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>5efea28a1b5cd450bfd6422dbc4bcbc9</sys_id>
+        <sys_metadata>5efea28a1b5cd450bfd6422dbc4bcbc9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>filter</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_scope_delete display_value="">00ce58cc553e4f44946be225e3ac8e99</sys_scope_delete>
+        <sys_update_name>sys_choice_x_jsolr_teamnotifi_rules_filter</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_jsolr_teamnotifi_rules_filter">1afea28a1b5cd450bfd6422dbc4bcbcb</sys_update_version>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-22 11:19:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
