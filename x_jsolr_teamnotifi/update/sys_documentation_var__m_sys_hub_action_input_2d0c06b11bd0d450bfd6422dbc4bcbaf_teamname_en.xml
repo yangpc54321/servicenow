@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="incoming_webhook" label="Incoming Webhook" language="en" table="x_jsolr_teamnotifi_channel">
+    <sys_documentation element="teamname" label="TeamName" language="en" table="var__m_sys_hub_action_input_2d0c06b11bd0d450bfd6422dbc4bcbaf">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>incoming_webhook</element>
+            <element>teamname</element>
             <help/>
             <hint/>
-            <label>Incoming Webhook</label>
+            <label>TeamName</label>
             <language>en</language>
-            <name>x_jsolr_teamnotifi_channel</name>
-            <plural>Incoming Webhooks</plural>
+            <name>var__m_sys_hub_action_input_2d0c06b11bd0d450bfd6422dbc4bcbaf</name>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
-            <sys_created_on>2020-04-22 04:09:47</sys_created_on>
-            <sys_id>cb46a6f41b74d410bfd6422dbc4bcb36</sys_id>
+            <sys_created_on>2020-04-21 14:06:28</sys_created_on>
+            <sys_id>f10c06b11bd0d450bfd6422dbc4bcbb6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Incoming Webhook</sys_name>
+            <sys_name>TeamName</sys_name>
             <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
             <sys_policy/>
             <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-            <sys_update_name>sys_documentation_x_jsolr_teamnotifi_channel_incoming_webhook_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2d0c06b11bd0d450bfd6422dbc4bcbaf_teamname_en</sys_update_name>
             <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
-            <sys_updated_on>2020-04-22 04:09:47</sys_updated_on>
+            <sys_updated_on>2020-04-21 14:06:28</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

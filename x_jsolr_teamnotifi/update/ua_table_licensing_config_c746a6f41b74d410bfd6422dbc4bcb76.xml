@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_jsolr_teamnotifi_rules</name>
+        <name>x_jsolr_teamnotifi_testdevbranch</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
-        <sys_created_on>2020-04-21 14:37:13</sys_created_on>
-        <sys_id>c0135af51bd0d450bfd6422dbc4bcb54</sys_id>
+        <sys_created_on>2020-05-13 09:26:45</sys_created_on>
+        <sys_id>c746a6f41b74d410bfd6422dbc4bcb76</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_jsolr_teamnotifi_rules</sys_name>
+        <sys_name>x_jsolr_teamnotifi_testdevbranch</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name>ua_table_licensing_config_c0135af51bd0d450bfd6422dbc4bcb54</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_c746a6f41b74d410bfd6422dbc4bcb76</sys_update_name>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
-        <sys_updated_on>2020-04-21 14:37:13</sys_updated_on>
+        <sys_updated_on>2020-05-13 09:26:45</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

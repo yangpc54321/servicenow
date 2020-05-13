@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
         <sys_created_on>2020-04-22 04:09:47</sys_created_on>
-        <sys_id>9cdc81ca1b58d450bfd6422dbc4bcbe3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>0b46a6f41b74d410bfd6422dbc4bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Incoming Webhook</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
         <sys_update_name>sys_dictionary_x_jsolr_teamnotifi_channel_incoming_webhook</sys_update_name>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
-        <sys_updated_on>2020-04-22 04:20:15</sys_updated_on>
+        <sys_updated_on>2020-05-13 09:58:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

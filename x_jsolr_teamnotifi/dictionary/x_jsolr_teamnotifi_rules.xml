@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Rules" max_length="40" name="x_jsolr_teamnotifi_rules" sizeclass="2" type="collection">
+    <element audit="true" label="Rules" max_length="40" name="x_jsolr_teamnotifi_rules" type="collection">
         <element label="Advance Filter" max_length="8000" name="advance_filter" type="script"/>
         <element default="incident" label="TableName" mandatory="true" max_length="40" name="assignment_channel" type="table_name"/>
         <element label="Channel" mandatory="true" max_length="4000" name="channel" reference="x_jsolr_teamnotifi_channel" type="glide_list"/>
@@ -8,7 +8,9 @@
             <choice/>
         </element>
         <element attributes="ts_weight=true" choice="1" label="Fields" max_length="80" name="fields" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
         </element>
         <element choice_field="category" choice_table="incident" dependent="assignment_channel" dependent_on_field="assignment_channel" label="Filter" max_length="4000" name="filter" type="conditions" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Inactive Reason" mandatory="true" max_length="40" name="inactive_reason" type="string"/>

@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>transmission_status</element>
-            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ad9725361bd45850bfd6422dbc4bcbb5</list_id>
+            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fdb7adf21bd45850bfd6422dbc4bcbcf</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>channel</element>
-            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ad9725361bd45850bfd6422dbc4bcbb5</list_id>
+            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fdb7adf21bd45850bfd6422dbc4bcbcf</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>content</element>
-            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ad9725361bd45850bfd6422dbc4bcbb5</list_id>
+            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fdb7adf21bd45850bfd6422dbc4bcbcf</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigend_to</element>
-            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ad9725361bd45850bfd6422dbc4bcbb5</list_id>
+            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fdb7adf21bd45850bfd6422dbc4bcbcf</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ad9725361bd45850bfd6422dbc4bcbb5</list_id>
+            <list_id display_value="x_jsolr_teamnotifi_notifications" element="NULL" name="x_jsolr_teamnotifi_notifications" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fdb7adf21bd45850bfd6422dbc4bcbcf</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>

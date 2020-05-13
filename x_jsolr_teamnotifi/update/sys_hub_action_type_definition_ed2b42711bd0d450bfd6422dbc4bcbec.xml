@@ -385,11 +385,11 @@
         <sys_created_on>2020-04-23 07:03:03</sys_created_on>
         <sys_id>ba4ebe921bd41850bfd6422dbc4bcb2b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Rules</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ed2b42711bd0d450bfd6422dbc4bcbec_rules_en</sys_update_name>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-23 07:03:03</sys_updated_on>
         <url/>
@@ -409,11 +409,11 @@
         <sys_created_on>2020-04-22 13:56:40</sys_created_on>
         <sys_id>00635f421bdcd450bfd6422dbc4bcbdd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>WebHook</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ed2b42711bd0d450bfd6422dbc4bcbec_variable_en</sys_update_name>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-22 13:56:40</sys_updated_on>
         <url/>
@@ -432,11 +432,11 @@
         <sys_created_on>2020-04-22 13:56:40</sys_created_on>
         <sys_id>48635f421bdcd450bfd6422dbc4bcbe3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Title</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ed2b42711bd0d450bfd6422dbc4bcbec_variable1_en</sys_update_name>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-22 13:56:40</sys_updated_on>
         <url/>
@@ -455,11 +455,11 @@
         <sys_created_on>2020-04-22 13:56:40</sys_created_on>
         <sys_id>80635f421bdcd450bfd6422dbc4bcbea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Content</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ed2b42711bd0d450bfd6422dbc4bcbec_variable12_en</sys_update_name>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-22 13:56:40</sys_updated_on>
         <url/>
@@ -776,11 +776,11 @@
         <sys_created_on>2020-04-21 14:06:28</sys_created_on>
         <sys_id>3d0c06b11bd0d450bfd6422dbc4bcbcf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>_</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2d0c06b11bd0d450bfd6422dbc4bcbaf___en</sys_update_name>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-21 14:06:28</sys_updated_on>
         <url/>
@@ -799,11 +799,11 @@
         <sys_created_on>2020-04-21 14:06:28</sys_created_on>
         <sys_id>f10c06b11bd0d450bfd6422dbc4bcbb6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>TeamName</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2d0c06b11bd0d450bfd6422dbc4bcbaf_teamname_en</sys_update_name>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-21 14:06:28</sys_updated_on>
         <url/>
@@ -822,11 +822,11 @@
         <sys_created_on>2020-04-21 14:06:28</sys_created_on>
         <sys_id>f10c06b11bd0d450bfd6422dbc4bcbc9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>channelName</sys_name>
         <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2d0c06b11bd0d450bfd6422dbc4bcbaf_channelname_en</sys_update_name>
         <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
         <sys_updated_on>2020-04-21 14:06:28</sys_updated_on>
         <url/>
