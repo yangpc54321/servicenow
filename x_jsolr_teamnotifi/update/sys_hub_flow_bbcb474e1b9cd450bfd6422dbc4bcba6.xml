@@ -1,0 +1,2702 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch1-02-19-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>message_notification</internal_name>
+        <label_cache>[{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.channel","label":"2.2➛Channels Record➛Channel Name","reference":"","reference_display":"Channel Name","type":"string","base_type":"string","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"channel"},{"name":"b9ea774e-3241-4ef0-b57c-fc7957569c6d.table_name","label":"2.2.1.2➛Notifications Table","reference":"x_jsolr_teamnotifi_notifications","reference_display":"Notifications","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b9ea774e-3241-4ef0-b57c-fc7957569c6d.record","label":"2.2.1.2➛Notifications Record","reference":"x_jsolr_teamnotifi_notifications","reference_display":"Notifications","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.work_notes_list","label":"Trigger➛Incident Record➛Work notes list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"incident","column_name":"work_notes_list"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger➛Incident Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.team_name.active","label":"2.2➛Channels Record➛Team Name➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_jsolr_teamnotifi_teams_info","column_name":"active"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.active","label":"2.2➛Channels Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"active"},{"name":"98ec3d9b-5528-4113-8f42-fbbc806bb436.item.condition","label":"2➛Rules Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_jsolr_teamnotifi_rules","column_name":"condition"},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger➛Incident Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"incident","column_name":"sys_created_by"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.incoming_webhook","label":"2.2➛Channels Record➛Incoming Webhook","reference":"","reference_display":"Incoming Webhook","type":"string","base_type":"string","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"incoming_webhook"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item","label":"2.2➛Channels Record","reference":"x_jsolr_teamnotifi_channel","reference_display":"Channels","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger➛Incident Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"incident","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.caller_id","label":"Trigger➛Incident Record➛Caller","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"caller_id"},{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{}},{"name":"98ec3d9b-5528-4113-8f42-fbbc806bb436.item.channel","label":"2➛Rules Record➛Channel","reference":"x_jsolr_teamnotifi_channel","reference_display":"Channels","type":"glide_list","base_type":"glide_list","parent_table_name":"x_jsolr_teamnotifi_rules","column_name":"channel"},{"name":"98ec3d9b-5528-4113-8f42-fbbc806bb436.item","label":"2➛Rules Record","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Table","label":"1➛Rules Table","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Records","label":"1➛Rules Records","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3161674-fcc0-4ac9-8721-baed9a9d86cc.Table","label":"1➛Rules Table","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3161674-fcc0-4ac9-8721-baed9a9d86cc.Record","label":"1➛Rules Record","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"},{"name":"Created or Updated_1.current.work_notes","label":"Trigger➛Incident Record➛Work notes","reference":"","reference_display":"Work notes","type":"journal_input","base_type":"journal_input","parent_table_name":"incident","column_name":"work_notes"},{"name":"Created or Updated_1.current.state","label":"Trigger➛Incident Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"incident","column_name":"state"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger➛Incident Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.team_name","label":"2.2➛Channels Record➛Team Name","reference":"x_jsolr_teamnotifi_teams_info","reference_display":"Teams","type":"reference","base_type":"reference","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"team_name"},{"name":"fd68413b-d0bf-423b-a678-b3ad9b0d5613.status","label":"2.2.1.3➛status","reference_display":"status","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fd68413b-d0bf-423b-a678-b3ad9b0d5613.error_message","label":"2.2.1.3➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"82e4234c-4e06-4f26-918e-5708b9d30973.status","label":"2.2.1.3➛status","reference_display":"status","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"82e4234c-4e06-4f26-918e-5708b9d30973.error_message","label":"2.2.1.3➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot>e52d8f741ba4d010bfd6422dbc4bcb53</master_snapshot>
+        <name>Message Notification </name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>392dcf741ba4d010bfd6422dbc4bcb14</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:23:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bbcb474e1b9cd450bfd6422dbc4bcba6</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>Message Notification </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_hub_flow_bbcb474e1b9cd450bfd6422dbc4bcba6</sys_update_name>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=bbcb474e1b9cd450bfd6422dbc4bcba6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bbcb474e1b9cd450bfd6422dbc4bcba6"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="incident">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>392dcf741ba4d010bfd6422dbc4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <table>incident</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT IN0cda88aa1b981850bfd6422dbc4bcb54,37e7c39a1bd41850bfd6422dbc4bcbae,4a4343d61bd41850bfd6422dbc4bcb87,4a4343d61bd41850bfd6422dbc4bcb8b,73e7c39a1bd41850bfd6422dbc4bcbaa,824343d61bd41850bfd6422dbc4bcb71,930ffb781b28d010bfd6422dbc4bcb74"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <order>2.2.1.2</order>
+        <parent_ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>0cda88aa1b981850bfd6422dbc4bcb54</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>b9ea774e-3241-4ef0-b57c-fc7957569c6d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0cda88aa1b981850bfd6422dbc4bcb54"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0cda88aa1b981850bfd6422dbc4bcb54</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>00da88aa1b981850bfd6422dbc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 12:37:22</sys_updated_on>
+        <value>x_jsolr_teamnotifi_notifications</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0cda88aa1b981850bfd6422dbc4bcb54"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0cda88aa1b981850bfd6422dbc4bcb54</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>c4da88aa1b981850bfd6422dbc4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 12:37:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0cda88aa1b981850bfd6422dbc4bcb54</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>8cda88aa1b981850bfd6422dbc4bcb56</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-24 14:02:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>channel={{0a379e37-6fce-4c15-951c-0abee3b673ab.item}}^content={{Created or Updated_1.current.short_description}}^transmission_status=success^assigend_to={{Created or Updated_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7fe7c39a1bd41850bfd6422dbc4bcbad</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0a379e37-6fce-4c15-951c-0abee3b673ab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:45:10</sys_created_on>
+        <sys_id>37e7c39a1bd41850bfd6422dbc4bcbae</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=37e7c39a1bd41850bfd6422dbc4bcbae"/>
+    <sys_element_mapping action="delete_multiple" query="id=37e7c39a1bd41850bfd6422dbc4bcbae"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>37e7c39a1bd41850bfd6422dbc4bcbae</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:45:10</sys_created_on>
+        <sys_id>7be7c39a1bd41850bfd6422dbc4bcbb0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 08:42:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.active}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8a4343d61bd41850bfd6422dbc4bcb86</block>
+        <comment>Channelをループ</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>4a4343d61bd41850bfd6422dbc4bcb87</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>0a379e37-6fce-4c15-951c-0abee3b673ab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4a4343d61bd41850bfd6422dbc4bcb87"/>
+    <sys_element_mapping action="delete_multiple" query="id=4a4343d61bd41850bfd6422dbc4bcb87"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>4a4343d61bd41850bfd6422dbc4bcb87</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>0e4343d61bd41850bfd6422dbc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:24:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{98ec3d9b-5528-4113-8f42-fbbc806bb436.item.channel}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c24343d61bd41850bfd6422dbc4bcb8b</block>
+        <comment>Rulesをループ</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>4a4343d61bd41850bfd6422dbc4bcb8b</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4a4343d61bd41850bfd6422dbc4bcb8b"/>
+    <sys_element_mapping action="delete_multiple" query="id=4a4343d61bd41850bfd6422dbc4bcb8b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>4a4343d61bd41850bfd6422dbc4bcb8b</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>8a4343d61bd41850bfd6422dbc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:24:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b7e7c39a1bd41850bfd6422dbc4bcba9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:45:10</sys_created_on>
+        <sys_id>73e7c39a1bd41850bfd6422dbc4bcbaa</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>03b332c5-681d-4b48-a9be-6c69033b1cc6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=73e7c39a1bd41850bfd6422dbc4bcbaa"/>
+    <sys_element_mapping action="delete_multiple" query="id=73e7c39a1bd41850bfd6422dbc4bcbaa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>73e7c39a1bd41850bfd6422dbc4bcbaa</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:45:10</sys_created_on>
+        <sys_id>b3e7c39a1bd41850bfd6422dbc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:45:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{98ec3d9b-5528-4113-8f42-fbbc806bb436.item.condition}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Rulesテーブルからデータを検索する</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>824343d61bd41850bfd6422dbc4bcb71</sys_id>
+        <sys_mod_count>120</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=824343d61bd41850bfd6422dbc4bcb71"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>824343d61bd41850bfd6422dbc4bcb71</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>c24343d61bd41850bfd6422dbc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:24:50</sys_updated_on>
+        <value>condition=true</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>824343d61bd41850bfd6422dbc4bcb71</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>ca4343d61bd41850bfd6422dbc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:24:50</sys_updated_on>
+        <value>x_jsolr_teamnotifi_rules</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="">16eacf433be0030057a4a2e334efc4db</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>16eacf433be0030057a4a2e334efc4db</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <order>2.2.1.1</order>
+        <parent_ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:10:46</sys_created_on>
+        <sys_id>930ffb781b28d010bfd6422dbc4bcb74</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>8b463c46-870f-4974-9cab-64a6af85be31</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=930ffb781b28d010bfd6422dbc4bcb74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>930ffb781b28d010bfd6422dbc4bcb74</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>477f77b81b28d010bfd6422dbc4bcb21</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:15:46</sys_updated_on>
+        <value/>
+        <variable display_value="">aaea03833be0030057a4a2e334efc40d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>930ffb781b28d010bfd6422dbc4bcb74</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>4f7f77b81b28d010bfd6422dbc4bcb21</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:25:34</sys_updated_on>
+        <value/>
+        <variable display_value="">56ea03833be0030057a4a2e334efc402</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT INfc32d3421bdcd450bfd6422dbc4bcb3f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>インシデント作成または更新時に以下のアクションが実行される</comment>
+        <display_text/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:51:32</sys_created_on>
+        <sys_id>fc32d3421bdcd450bfd6422dbc4bcb3f</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fc32d3421bdcd450bfd6422dbc4bcb3f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fc32d3421bdcd450bfd6422dbc4bcb3f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:51:32</sys_created_on>
+        <sys_id>3032d3421bdcd450bfd6422dbc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-22 13:51:32</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fc32d3421bdcd450bfd6422dbc4bcb3f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:51:32</sys_created_on>
+        <sys_id>3c32d3421bdcd450bfd6422dbc4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-22 13:51:32</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fc32d3421bdcd450bfd6422dbc4bcb3f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 07:34:13</sys_created_on>
+        <sys_id>ad22d8491b68d010bfd6422dbc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:13</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT INf7cb8b4e1b9cd450bfd6422dbc4bcb08"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>bbcb474e1b9cd450bfd6422dbc4bcba6</id>
+        <name>Message Notification </name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:23:37</sys_created_on>
+        <sys_id>f7cb8b4e1b9cd450bfd6422dbc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-22 13:23:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT IN026ccf4e1b9cd450bfd6422dbc4bcb18,426c474e1b9cd450bfd6422dbc4bcbef,f032d3421bdcd450bfd6422dbc4bcb36"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</model>
+        <model_id>bbcb474e1b9cd450bfd6422dbc4bcba6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:26:14</sys_created_on>
+        <sys_id>026ccf4e1b9cd450bfd6422dbc4bcb18</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:42:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</model>
+        <model_id>bbcb474e1b9cd450bfd6422dbc4bcba6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:26:13</sys_created_on>
+        <sys_id>426c474e1b9cd450bfd6422dbc4bcbef</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:42:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDcbffa88dfea8d010c41233bca47a843f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</model>
+        <model_id>bbcb474e1b9cd450bfd6422dbc4bcba6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:51:32</sys_created_on>
+        <sys_id>f032d3421bdcd450bfd6422dbc4bcb36</sys_id>
+        <sys_mod_count>57</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT IN0cda88aa1b981850bfd6422dbc4bcb54,824343d61bd41850bfd6422dbc4bcb71,930ffb781b28d010bfd6422dbc4bcb74"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <order>2.2.1.2</order>
+        <parent_ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>0cda88aa1b981850bfd6422dbc4bcb54</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>b9ea774e-3241-4ef0-b57c-fc7957569c6d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0cda88aa1b981850bfd6422dbc4bcb54"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0cda88aa1b981850bfd6422dbc4bcb54</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>00da88aa1b981850bfd6422dbc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 12:37:22</sys_updated_on>
+        <value>x_jsolr_teamnotifi_notifications</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0cda88aa1b981850bfd6422dbc4bcb54"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0cda88aa1b981850bfd6422dbc4bcb54</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>c4da88aa1b981850bfd6422dbc4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 12:37:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0cda88aa1b981850bfd6422dbc4bcb54</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>8cda88aa1b981850bfd6422dbc4bcb56</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-24 14:02:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>channel={{0a379e37-6fce-4c15-951c-0abee3b673ab.item}}^content={{Created or Updated_1.current.short_description}}^transmission_status=success^assigend_to={{Created or Updated_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0cda88aa1b981850bfd6422dbc4bcb54^sys_idNOT IN9c92d0221bd81850bfd6422dbc4bcb23"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>0cda88aa1b981850bfd6422dbc4bcb54</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"transmission_status":{"scriptActive":false,"script":"","savedValue":"success"}}</script>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 13:11:14</sys_created_on>
+        <sys_id>9c92d0221bd81850bfd6422dbc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 13:11:14</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Rulesテーブルからデータを検索する</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>824343d61bd41850bfd6422dbc4bcb71</sys_id>
+        <sys_mod_count>120</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=824343d61bd41850bfd6422dbc4bcb71"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>824343d61bd41850bfd6422dbc4bcb71</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>c24343d61bd41850bfd6422dbc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:24:50</sys_updated_on>
+        <value>condition=true</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>824343d61bd41850bfd6422dbc4bcb71</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>ca4343d61bd41850bfd6422dbc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:24:50</sys_updated_on>
+        <value>x_jsolr_teamnotifi_rules</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="">16eacf433be0030057a4a2e334efc4db</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>16eacf433be0030057a4a2e334efc4db</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <order>2.2.1.1</order>
+        <parent_ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:10:46</sys_created_on>
+        <sys_id>930ffb781b28d010bfd6422dbc4bcb74</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>8b463c46-870f-4974-9cab-64a6af85be31</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=930ffb781b28d010bfd6422dbc4bcb74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>930ffb781b28d010bfd6422dbc4bcb74</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>477f77b81b28d010bfd6422dbc4bcb21</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:15:46</sys_updated_on>
+        <value/>
+        <variable display_value="">aaea03833be0030057a4a2e334efc40d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>930ffb781b28d010bfd6422dbc4bcb74</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:12:40</sys_created_on>
+        <sys_id>4f7f77b81b28d010bfd6422dbc4bcb21</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:25:34</sys_updated_on>
+        <value/>
+        <variable display_value="">56ea03833be0030057a4a2e334efc402</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT IN37e7c39a1bd41850bfd6422dbc4bcbae,4a4343d61bd41850bfd6422dbc4bcb87,4a4343d61bd41850bfd6422dbc4bcb8b,73e7c39a1bd41850bfd6422dbc4bcbaa"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7fe7c39a1bd41850bfd6422dbc4bcbad</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0a379e37-6fce-4c15-951c-0abee3b673ab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:45:10</sys_created_on>
+        <sys_id>37e7c39a1bd41850bfd6422dbc4bcbae</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=37e7c39a1bd41850bfd6422dbc4bcbae"/>
+    <sys_element_mapping action="delete_multiple" query="id=37e7c39a1bd41850bfd6422dbc4bcbae"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>37e7c39a1bd41850bfd6422dbc4bcbae</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:45:10</sys_created_on>
+        <sys_id>7be7c39a1bd41850bfd6422dbc4bcbb0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 08:42:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.active}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8a4343d61bd41850bfd6422dbc4bcb86</block>
+        <comment>Channelをループ</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>4a4343d61bd41850bfd6422dbc4bcb87</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>0a379e37-6fce-4c15-951c-0abee3b673ab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4a4343d61bd41850bfd6422dbc4bcb87"/>
+    <sys_element_mapping action="delete_multiple" query="id=4a4343d61bd41850bfd6422dbc4bcb87"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>4a4343d61bd41850bfd6422dbc4bcb87</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>0e4343d61bd41850bfd6422dbc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:24:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{98ec3d9b-5528-4113-8f42-fbbc806bb436.item.channel}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c24343d61bd41850bfd6422dbc4bcb8b</block>
+        <comment>Rulesをループ</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>4a4343d61bd41850bfd6422dbc4bcb8b</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4a4343d61bd41850bfd6422dbc4bcb8b"/>
+    <sys_element_mapping action="delete_multiple" query="id=4a4343d61bd41850bfd6422dbc4bcb8b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>4a4343d61bd41850bfd6422dbc4bcb8b</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:24:50</sys_created_on>
+        <sys_id>8a4343d61bd41850bfd6422dbc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:24:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b7e7c39a1bd41850bfd6422dbc4bcba9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:45:10</sys_created_on>
+        <sys_id>73e7c39a1bd41850bfd6422dbc4bcbaa</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>takebayashi.minoru@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 09:44:35</sys_updated_on>
+        <ui_id>03b332c5-681d-4b48-a9be-6c69033b1cc6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=73e7c39a1bd41850bfd6422dbc4bcbaa"/>
+    <sys_element_mapping action="delete_multiple" query="id=73e7c39a1bd41850bfd6422dbc4bcbaa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>73e7c39a1bd41850bfd6422dbc4bcbaa</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 07:45:10</sys_created_on>
+        <sys_id>b3e7c39a1bd41850bfd6422dbc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-23 07:45:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{98ec3d9b-5528-4113-8f42-fbbc806bb436.item.condition}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT IN38329c491b68d010bfd6422dbc4bcbd6,70329c491b68d010bfd6422dbc4bcbd7,74329c491b68d010bfd6422dbc4bcbd6,bc329c491b68d010bfd6422dbc4bcbd5,bc329c491b68d010bfd6422dbc4bcbd6,f8329c491b68d010bfd6422dbc4bcbd6"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bbcb474e1b9cd450bfd6422dbc4bcba6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 07:34:26</sys_created_on>
+        <sys_id>38329c491b68d010bfd6422dbc4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bbcb474e1b9cd450bfd6422dbc4bcba6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 07:34:26</sys_created_on>
+        <sys_id>70329c491b68d010bfd6422dbc4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bbcb474e1b9cd450bfd6422dbc4bcba6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 07:34:26</sys_created_on>
+        <sys_id>74329c491b68d010bfd6422dbc4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bbcb474e1b9cd450bfd6422dbc4bcba6</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 07:34:26</sys_created_on>
+        <sys_id>bc329c491b68d010bfd6422dbc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:26</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>a8503eca-f60f-427c-9988-2d1d7ecb35a8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bbcb474e1b9cd450bfd6422dbc4bcba6</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 07:34:26</sys_created_on>
+        <sys_id>bc329c491b68d010bfd6422dbc4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:26</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>0c63a5aa-e576-482f-868d-fb8fbef03547</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bbcb474e1b9cd450bfd6422dbc4bcba6</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 07:34:26</sys_created_on>
+        <sys_id>f8329c491b68d010bfd6422dbc4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:26</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>e7e99f1c-d416-4d6d-98b2-8a3e86418027</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT IN066ccf4e1b9cd450bfd6422dbc4bcb1c,3c32d3421bdcd450bfd6422dbc4bcb3a,466ccf4e1b9cd450bfd6422dbc4bcb16"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:26:14</sys_created_on>
+        <sys_id>066ccf4e1b9cd450bfd6422dbc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6_table_name_en</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-22 13:26:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:51:32</sys_created_on>
+        <sys_id>3c32d3421bdcd450bfd6422dbc4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6_changed_fields_en</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-22 13:51:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-22 13:26:14</sys_created_on>
+        <sys_id>466ccf4e1b9cd450bfd6422dbc4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bbcb474e1b9cd450bfd6422dbc4bcba6_current_en</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-22 13:26:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=bbcb474e1b9cd450bfd6422dbc4bcba6^sys_idNOT IN352dcf741ba4d010bfd6422dbc4bcb15"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"352dcf741ba4d010bfd6422dbc4bcb15","name":"plan"}}</plan>
+        <plan_id>bbcb474e1b9cd450bfd6422dbc4bcba6</plan_id>
+        <snapshot>f64250891b68d010bfd6422dbc4bcb9a</snapshot>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>352dcf741ba4d010bfd6422dbc4bcb15</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:25</sys_updated_on>
+        <trigger display_value="">392dcf741ba4d010bfd6422dbc4bcb14</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>message_notification</internal_name>
+        <label_cache>[{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.team_name","label":"2.2➛Channels Record➛Team Name","reference":"x_jsolr_teamnotifi_teams_info","reference_display":"Teams","type":"reference","base_type":"reference","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"team_name"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger➛Incident Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to"},{"name":"Created or Updated_1.current.state","label":"Trigger➛Incident Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"incident","column_name":"state"},{"name":"Created or Updated_1.current.work_notes","label":"Trigger➛Incident Record➛Work notes","reference":"","reference_display":"Work notes","type":"journal_input","base_type":"journal_input","parent_table_name":"incident","column_name":"work_notes"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"},{"name":"a3161674-fcc0-4ac9-8721-baed9a9d86cc.Record","label":"1➛Rules Record","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3161674-fcc0-4ac9-8721-baed9a9d86cc.Table","label":"1➛Rules Table","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Records","label":"1➛Rules Records","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Table","label":"1➛Rules Table","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"98ec3d9b-5528-4113-8f42-fbbc806bb436.item","label":"2➛Rules Record","reference":"x_jsolr_teamnotifi_rules","reference_display":"Rules","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"98ec3d9b-5528-4113-8f42-fbbc806bb436.item.channel","label":"2➛Rules Record➛Channel","reference":"x_jsolr_teamnotifi_channel","reference_display":"Channels","type":"glide_list","base_type":"glide_list","parent_table_name":"x_jsolr_teamnotifi_rules","column_name":"channel"},{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.caller_id","label":"Trigger➛Incident Record➛Caller","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"caller_id"},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger➛Incident Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"incident","column_name":"sys_created_on"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item","label":"2.2➛Channels Record","reference":"x_jsolr_teamnotifi_channel","reference_display":"Channels","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.incoming_webhook","label":"2.2➛Channels Record➛Incoming Webhook","reference":"","reference_display":"Incoming Webhook","type":"string","base_type":"string","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"incoming_webhook"},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger➛Incident Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"incident","column_name":"sys_created_by"},{"name":"98ec3d9b-5528-4113-8f42-fbbc806bb436.item.condition","label":"2➛Rules Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_jsolr_teamnotifi_rules","column_name":"condition"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.active","label":"2.2➛Channels Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_jsolr_teamnotifi_channel","column_name":"active"},{"name":"0a379e37-6fce-4c15-951c-0abee3b673ab.item.team_name.active","label":"2.2➛Channels Record➛Team Name➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_jsolr_teamnotifi_teams_info","column_name":"active"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger➛Incident Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.work_notes_list","label":"Trigger➛Incident Record➛Work notes list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"incident","column_name":"work_notes_list"},{"name":"b9ea774e-3241-4ef0-b57c-fc7957569c6d.record","label":"2.2.1.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b9ea774e-3241-4ef0-b57c-fc7957569c6d.table_name","label":"2.2.1.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Message Notification </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Message Notification ">bbcb474e1b9cd450bfd6422dbc4bcba6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e52d8f741ba4d010bfd6422dbc4bcb53</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e52d8f741ba4d010bfd6422dbc4bcb53"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e52d8f741ba4d010bfd6422dbc4bcb53"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT IN1cb1080d1b28d010bfd6422dbc4bcb9a,292d8f741ba4d010bfd6422dbc4bcb99,352d8f741ba4d010bfd6422dbc4bcbaa,612d8f741ba4d010bfd6422dbc4bcb96,a12d8f741ba4d010bfd6422dbc4bcb93,e12d8f741ba4d010bfd6422dbc4bcb9f,ed2d8f741ba4d010bfd6422dbc4bcb8e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="">16eacf433be0030057a4a2e334efc4db</action_type>
+        <action_type_parent display_value="">65672e4b3ba0030057a4a2e334efc496</action_type_parent>
+        <comment/>
+        <compiled_snapshot>16eacf433be0030057a4a2e334efc4db</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <order>2.2.1.1</order>
+        <parent_ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:18</sys_created_on>
+        <sys_id>1cb1080d1b28d010bfd6422dbc4bcb9a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>8b463c46-870f-4974-9cab-64a6af85be31</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1cb1080d1b28d010bfd6422dbc4bcb9a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c24343d61bd41850bfd6422dbc4bcb8b</block>
+        <comment>Rulesをループ</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>292d8f741ba4d010bfd6422dbc4bcb99</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=292d8f741ba4d010bfd6422dbc4bcb99"/>
+    <sys_element_mapping action="delete_multiple" query="id=292d8f741ba4d010bfd6422dbc4bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>292d8f741ba4d010bfd6422dbc4bcb99</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>692d8f741ba4d010bfd6422dbc4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <order>2.2.1.2</order>
+        <parent_ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>352d8f741ba4d010bfd6422dbc4bcbaa</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>b9ea774e-3241-4ef0-b57c-fc7957569c6d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=352d8f741ba4d010bfd6422dbc4bcbaa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>352d8f741ba4d010bfd6422dbc4bcbaa</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>712d8f741ba4d010bfd6422dbc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <value>x_jsolr_teamnotifi_notifications</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=352d8f741ba4d010bfd6422dbc4bcbaa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>352d8f741ba4d010bfd6422dbc4bcbaa</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>3d2d8f741ba4d010bfd6422dbc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>352d8f741ba4d010bfd6422dbc4bcbaa</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>fd2d8f741ba4d010bfd6422dbc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>channel={{0a379e37-6fce-4c15-951c-0abee3b673ab.item}}^content={{Created or Updated_1.current.short_description}}^transmission_status=success^assigend_to={{Created or Updated_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8a4343d61bd41850bfd6422dbc4bcb86</block>
+        <comment>Channelをループ</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>612d8f741ba4d010bfd6422dbc4bcb96</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>0a379e37-6fce-4c15-951c-0abee3b673ab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=612d8f741ba4d010bfd6422dbc4bcb96"/>
+    <sys_element_mapping action="delete_multiple" query="id=612d8f741ba4d010bfd6422dbc4bcb96"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>612d8f741ba4d010bfd6422dbc4bcb96</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>2d2d8f741ba4d010bfd6422dbc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{98ec3d9b-5528-4113-8f42-fbbc806bb436.item.channel}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7fe7c39a1bd41850bfd6422dbc4bcbad</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0a379e37-6fce-4c15-951c-0abee3b673ab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>a12d8f741ba4d010bfd6422dbc4bcb93</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a12d8f741ba4d010bfd6422dbc4bcb93"/>
+    <sys_element_mapping action="delete_multiple" query="id=a12d8f741ba4d010bfd6422dbc4bcb93"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a12d8f741ba4d010bfd6422dbc4bcb93</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>e52d8f741ba4d010bfd6422dbc4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.active}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Rulesテーブルからデータを検索する</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>e12d8f741ba4d010bfd6422dbc4bcb9f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e12d8f741ba4d010bfd6422dbc4bcb9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e12d8f741ba4d010bfd6422dbc4bcb9f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>f52d8f741ba4d010bfd6422dbc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <value>condition=true</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e12d8f741ba4d010bfd6422dbc4bcb9f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>fd2d8f741ba4d010bfd6422dbc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <value>x_jsolr_teamnotifi_rules</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b7e7c39a1bd41850bfd6422dbc4bcba9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>ed2d8f741ba4d010bfd6422dbc4bcb8e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>03b332c5-681d-4b48-a9be-6c69033b1cc6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ed2d8f741ba4d010bfd6422dbc4bcb8e"/>
+    <sys_element_mapping action="delete_multiple" query="id=ed2d8f741ba4d010bfd6422dbc4bcb8e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ed2d8f741ba4d010bfd6422dbc4bcb8e</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>612d8f741ba4d010bfd6422dbc4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{98ec3d9b-5528-4113-8f42-fbbc806bb436.item.condition}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT INf52d8f741ba4d010bfd6422dbc4bcbac"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>インシデント作成または更新時に以下のアクションが実行される</comment>
+        <display_text/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>f52d8f741ba4d010bfd6422dbc4bcbac</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:25</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f52d8f741ba4d010bfd6422dbc4bcbac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f52d8f741ba4d010bfd6422dbc4bcbac</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 07:34:23</sys_created_on>
+        <sys_id>04325c491b68d010bfd6422dbc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:23</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f52d8f741ba4d010bfd6422dbc4bcbac</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>312d8f741ba4d010bfd6422dbc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f52d8f741ba4d010bfd6422dbc4bcbac</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>392d8f741ba4d010bfd6422dbc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT IN292d8f741ba4d010bfd6422dbc4bcb54"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e52d8f741ba4d010bfd6422dbc4bcb53</id>
+        <name>Message Notification </name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>292d8f741ba4d010bfd6422dbc4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT IN2d2d8f741ba4d010bfd6422dbc4bcb82,692d8f741ba4d010bfd6422dbc4bcb79,a92d8f741ba4d010bfd6422dbc4bcb57"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</model>
+        <model_id>e52d8f741ba4d010bfd6422dbc4bcb53</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>2d2d8f741ba4d010bfd6422dbc4bcb82</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD18325c49bd68d010ce15c32da2101fdc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</model>
+        <model_id>e52d8f741ba4d010bfd6422dbc4bcb53</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>692d8f741ba4d010bfd6422dbc4bcb79</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</model>
+        <model_id>e52d8f741ba4d010bfd6422dbc4bcb53</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>a92d8f741ba4d010bfd6422dbc4bcb57</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT IN1cb1080d1b28d010bfd6422dbc4bcb9a,352d8f741ba4d010bfd6422dbc4bcbaa,e12d8f741ba4d010bfd6422dbc4bcb9f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="">16eacf433be0030057a4a2e334efc4db</action_type>
+        <action_type_parent display_value="">65672e4b3ba0030057a4a2e334efc496</action_type_parent>
+        <comment/>
+        <compiled_snapshot>16eacf433be0030057a4a2e334efc4db</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <order>2.2.1.1</order>
+        <parent_ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:18</sys_created_on>
+        <sys_id>1cb1080d1b28d010bfd6422dbc4bcb9a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>8b463c46-870f-4974-9cab-64a6af85be31</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1cb1080d1b28d010bfd6422dbc4bcb9a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <order>2.2.1.2</order>
+        <parent_ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>352d8f741ba4d010bfd6422dbc4bcbaa</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>b9ea774e-3241-4ef0-b57c-fc7957569c6d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=352d8f741ba4d010bfd6422dbc4bcbaa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>352d8f741ba4d010bfd6422dbc4bcbaa</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>712d8f741ba4d010bfd6422dbc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <value>x_jsolr_teamnotifi_notifications</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=352d8f741ba4d010bfd6422dbc4bcbaa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>352d8f741ba4d010bfd6422dbc4bcbaa</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>3d2d8f741ba4d010bfd6422dbc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>352d8f741ba4d010bfd6422dbc4bcbaa</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>fd2d8f741ba4d010bfd6422dbc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>channel={{0a379e37-6fce-4c15-951c-0abee3b673ab.item}}^content={{Created or Updated_1.current.short_description}}^transmission_status=success^assigend_to={{Created or Updated_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=352d8f741ba4d010bfd6422dbc4bcbaa^sys_idNOT INb12d8f741ba4d010bfd6422dbc4bcbab"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>352d8f741ba4d010bfd6422dbc4bcbaa</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"transmission_status":{"scriptActive":false,"script":"","savedValue":"success"}}</script>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>b12d8f741ba4d010bfd6422dbc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Rulesテーブルからデータを検索する</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>e12d8f741ba4d010bfd6422dbc4bcb9f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e12d8f741ba4d010bfd6422dbc4bcb9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e12d8f741ba4d010bfd6422dbc4bcb9f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>f52d8f741ba4d010bfd6422dbc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <value>condition=true</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e12d8f741ba4d010bfd6422dbc4bcb9f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>fd2d8f741ba4d010bfd6422dbc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <value>x_jsolr_teamnotifi_rules</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT IN292d8f741ba4d010bfd6422dbc4bcb99,612d8f741ba4d010bfd6422dbc4bcb96,a12d8f741ba4d010bfd6422dbc4bcb93,ed2d8f741ba4d010bfd6422dbc4bcb8e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c24343d61bd41850bfd6422dbc4bcb8b</block>
+        <comment>Rulesをループ</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>292d8f741ba4d010bfd6422dbc4bcb99</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=292d8f741ba4d010bfd6422dbc4bcb99"/>
+    <sys_element_mapping action="delete_multiple" query="id=292d8f741ba4d010bfd6422dbc4bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>292d8f741ba4d010bfd6422dbc4bcb99</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>692d8f741ba4d010bfd6422dbc4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{2fec8e4d-42c8-4a2e-9afb-92f53f7b68c1.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8a4343d61bd41850bfd6422dbc4bcb86</block>
+        <comment>Channelをループ</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>612d8f741ba4d010bfd6422dbc4bcb96</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>0a379e37-6fce-4c15-951c-0abee3b673ab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=612d8f741ba4d010bfd6422dbc4bcb96"/>
+    <sys_element_mapping action="delete_multiple" query="id=612d8f741ba4d010bfd6422dbc4bcb96"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>612d8f741ba4d010bfd6422dbc4bcb96</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>2d2d8f741ba4d010bfd6422dbc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{98ec3d9b-5528-4113-8f42-fbbc806bb436.item.channel}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7fe7c39a1bd41850bfd6422dbc4bcbad</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0a379e37-6fce-4c15-951c-0abee3b673ab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>a12d8f741ba4d010bfd6422dbc4bcb93</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>de3dd0b5-5992-44aa-8e2d-f60b4b76b298</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a12d8f741ba4d010bfd6422dbc4bcb93"/>
+    <sys_element_mapping action="delete_multiple" query="id=a12d8f741ba4d010bfd6422dbc4bcb93"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a12d8f741ba4d010bfd6422dbc4bcb93</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>e52d8f741ba4d010bfd6422dbc4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0a379e37-6fce-4c15-951c-0abee3b673ab.item.active}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b7e7c39a1bd41850bfd6422dbc4bcba9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Message Notification ">e52d8f741ba4d010bfd6422dbc4bcb53</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98ec3d9b-5528-4113-8f42-fbbc806bb436</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>ed2d8f741ba4d010bfd6422dbc4bcb8e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <ui_id>03b332c5-681d-4b48-a9be-6c69033b1cc6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ed2d8f741ba4d010bfd6422dbc4bcb8e"/>
+    <sys_element_mapping action="delete_multiple" query="id=ed2d8f741ba4d010bfd6422dbc4bcb8e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ed2d8f741ba4d010bfd6422dbc4bcb8e</id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>612d8f741ba4d010bfd6422dbc4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{98ec3d9b-5528-4113-8f42-fbbc806bb436.item.condition}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT IN08da88aa1b981850bfd6422dbc4bcb69,1c861f1a1b181850bfd6422dbc4bcb19,3082084d1b28d010bfd6422dbc4bcba3,34b1480d1b28d010bfd6422dbc4bcb93,40da88aa1b981850bfd6422dbc4bcb69,433e4b121b181850bfd6422dbc4bcba2,58861f1a1b181850bfd6422dbc4bcb19,70b1480d1b28d010bfd6422dbc4bcb93,752d8f741ba4d010bfd6422dbc4bcbd4,792d8f741ba4d010bfd6422dbc4bcbd4,7c82084d1b28d010bfd6422dbc4bcba2,7cb1480d1b28d010bfd6422dbc4bcb93,7d2d8f741ba4d010bfd6422dbc4bcbd3,7d2d8f741ba4d010bfd6422dbc4bcbd4,b482084d1b28d010bfd6422dbc4bcba3,b882084d1b28d010bfd6422dbc4bcba2,b8b1480d1b28d010bfd6422dbc4bcb92,b8b1480d1b28d010bfd6422dbc4bcb93,cb3e4b121b181850bfd6422dbc4bcba2,f082084d1b28d010bfd6422dbc4bcba3,f482084d1b28d010bfd6422dbc4bcba2,f4b1480d1b28d010bfd6422dbc4bcb93,f52d8f741ba4d010bfd6422dbc4bcbd4,f92d8f741ba4d010bfd6422dbc4bcbd4"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>08da88aa1b981850bfd6422dbc4bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:19</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>a8503eca-f60f-427c-9988-2d1d7ecb35a8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 08:48:49</sys_created_on>
+        <sys_id>1c861f1a1b181850bfd6422dbc4bcb19</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:19</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>0c63a5aa-e576-482f-868d-fb8fbef03547</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:25:54</sys_created_on>
+        <sys_id>3082084d1b28d010bfd6422dbc4bcba3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>e7e99f1c-d416-4d6d-98b2-8a3e86418027</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:21</sys_created_on>
+        <sys_id>34b1480d1b28d010bfd6422dbc4bcb93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:25:52</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 12:37:22</sys_created_on>
+        <sys_id>40da88aa1b981850bfd6422dbc4bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:19</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 08:12:42</sys_created_on>
+        <sys_id>433e4b121b181850bfd6422dbc4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:19</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 08:48:49</sys_created_on>
+        <sys_id>58861f1a1b181850bfd6422dbc4bcb19</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:19</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:21</sys_created_on>
+        <sys_id>70b1480d1b28d010bfd6422dbc4bcb93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:25:52</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>752d8f741ba4d010bfd6422dbc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>792d8f741ba4d010bfd6422dbc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>0c63a5aa-e576-482f-868d-fb8fbef03547</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:25:54</sys_created_on>
+        <sys_id>7c82084d1b28d010bfd6422dbc4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:21</sys_created_on>
+        <sys_id>7cb1480d1b28d010bfd6422dbc4bcb93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:25:52</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>e7e99f1c-d416-4d6d-98b2-8a3e86418027</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>7d2d8f741ba4d010bfd6422dbc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>a8503eca-f60f-427c-9988-2d1d7ecb35a8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>7d2d8f741ba4d010bfd6422dbc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>e7e99f1c-d416-4d6d-98b2-8a3e86418027</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:25:54</sys_created_on>
+        <sys_id>b482084d1b28d010bfd6422dbc4bcba3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>0c63a5aa-e576-482f-868d-fb8fbef03547</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:25:54</sys_created_on>
+        <sys_id>b882084d1b28d010bfd6422dbc4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:21</sys_created_on>
+        <sys_id>b8b1480d1b28d010bfd6422dbc4bcb92</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:25:52</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>a8503eca-f60f-427c-9988-2d1d7ecb35a8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:21</sys_created_on>
+        <sys_id>b8b1480d1b28d010bfd6422dbc4bcb93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:25:52</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-23 08:12:42</sys_created_on>
+        <sys_id>cb3e4b121b181850bfd6422dbc4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:22:19</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>e7e99f1c-d416-4d6d-98b2-8a3e86418027</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:25:54</sys_created_on>
+        <sys_id>f082084d1b28d010bfd6422dbc4bcba3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:25:54</sys_created_on>
+        <sys_id>f482084d1b28d010bfd6422dbc4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:34:24</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>a8503eca-f60f-427c-9988-2d1d7ecb35a8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>0c375a7a-044f-41d0-ba05-10830e425f61</source_ui_id>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 06:22:21</sys_created_on>
+        <sys_id>f4b1480d1b28d010bfd6422dbc4bcb93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:25:53</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>0c63a5aa-e576-482f-868d-fb8fbef03547</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>f52d8f741ba4d010bfd6422dbc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3bec92b2-29cf-4396-8627-82b182c07cb3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e52d8f741ba4d010bfd6422dbc4bcb53</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_notes_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:46</sys_created_on>
+        <sys_id>f92d8f741ba4d010bfd6422dbc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fb0ef7ea-f674-45fa-b7af-562e1f025e39</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53^sys_idNOT IN2d2d8f741ba4d010bfd6422dbc4bcb7e,e92d8f741ba4d010bfd6422dbc4bcb5e,e92d8f741ba4d010bfd6422dbc4bcb87"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>2d2d8f741ba4d010bfd6422dbc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53_changed_fields_en</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>e92d8f741ba4d010bfd6422dbc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53_current_en</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-01 02:32:45</sys_created_on>
+        <sys_id>e92d8f741ba4d010bfd6422dbc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e52d8f741ba4d010bfd6422dbc4bcb53_table_name_en</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:32:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

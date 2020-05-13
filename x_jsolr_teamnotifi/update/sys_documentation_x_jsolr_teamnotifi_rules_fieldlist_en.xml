@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="fieldlist" label="FieldList" language="en" table="x_jsolr_teamnotifi_rules">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>fieldlist</element>
+            <help/>
+            <hint/>
+            <label>FieldList</label>
+            <language>en</language>
+            <name>x_jsolr_teamnotifi_rules</name>
+            <plural>FieldLists</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+            <sys_created_on>2020-04-27 09:49:10</sys_created_on>
+            <sys_id>a7aa887b1b9418507bd3dce9bc4bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>FieldList</sys_name>
+            <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+            <sys_update_name>sys_documentation_x_jsolr_teamnotifi_rules_fieldlist_en</sys_update_name>
+            <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+            <sys_updated_on>2020-04-27 09:49:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

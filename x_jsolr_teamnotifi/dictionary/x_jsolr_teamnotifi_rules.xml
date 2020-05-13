@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Rules" max_length="40" name="x_jsolr_teamnotifi_rules" type="collection">
+        <element label="Advance Filter" max_length="8000" name="advance_filter" type="script"/>
+        <element default="incident" label="TableName" mandatory="true" max_length="40" name="assignment_channel" type="table_name"/>
+        <element label="Channel" mandatory="true" max_length="4000" name="channel" reference="x_jsolr_teamnotifi_channel" type="glide_list"/>
+        <element default="true" label="Active" max_length="40" name="condition" type="boolean"/>
+        <element choice="1" dependent="assignment_channel" dependent_on_field="assignment_channel" label="FieldList" max_length="4000" name="fieldlist" type="glide_list" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="ts_weight=true" choice="1" label="Fields" max_length="80" name="fields" type="choice">
+            <choice/>
+        </element>
+        <element choice_field="category" choice_table="incident" dependent="assignment_channel" dependent_on_field="assignment_channel" label="Filter" max_length="4000" name="filter" type="conditions" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Inactive Reason" mandatory="true" max_length="40" name="inactive_reason" type="string"/>
+        <element label="On Insert" max_length="40" name="on_insert" type="boolean"/>
+        <element label="On Update" max_length="40" name="on_update" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="rulename" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Team" mandatory="true" max_length="32" name="team" reference="x_jsolr_teamnotifi_teams_info" type="reference"/>
+        <element default="0" label="Weightage" mandatory="true" max_length="40" name="weightage" type="integer"/>
+        <index name="index">
+            <element name="team"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

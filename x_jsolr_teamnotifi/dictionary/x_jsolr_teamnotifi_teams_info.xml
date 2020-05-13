@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Teams" max_length="40" name="x_jsolr_teamnotifi_teams_info" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Team Name" mandatory="true" max_length="40" name="team" type="string"/>
+    </element>
+</database>

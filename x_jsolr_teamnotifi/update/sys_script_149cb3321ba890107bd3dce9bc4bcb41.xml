@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>true</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_jsolr_teamnotifi_rules</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>incident has updated</p>]]></message>
+        <name>Rules Update</name>
+        <order>100</order>
+        <priority>1</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-07 11:15:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>149cb3321ba890107bd3dce9bc4bcb41</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Rules Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_script_149cb3321ba890107bd3dce9bc4bcb41</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-07 11:25:06</sys_updated_on>
+        <template>inactive_reason=true^EQ</template>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=149cb3321ba890107bd3dce9bc4bcb41"/>
+</record_update>

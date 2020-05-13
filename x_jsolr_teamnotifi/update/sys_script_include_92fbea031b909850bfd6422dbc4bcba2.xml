@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_jsolr_teamnotifi.AjaxGetColumnName</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>AjaxGetColumnName</description>
+        <name>AjaxGetColumnName</name>
+        <script><![CDATA[// クラス作成
+var AjaxGetColumnName = Class.create();
+// AbstractAjaxProcessorを継承しprototypeを作成
+AjaxGetColumnName.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	// メソッドを作成
+    getColumnName: function() {
+		// クライアントから引数を取得
+        var tableName = this.getParameter('sysparm_table_name');
+        var gr = new GlideRecord(tableName);
+        gr.initialize();
+        var fields = gr.getElements();
+        var response = [];
+        for (var i = 0; i < fields.length; i++) {
+            var element = fields[i];
+            var descriptor = element.getED();
+            var fLabel = descriptor.getLabel().toString();
+			response.push(fLabel);
+        }
+		// 戻り値
+        return response.toString();
+    }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-25 13:42:30</sys_created_on>
+        <sys_id>92fbea031b909850bfd6422dbc4bcba2</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>AjaxGetColumnName</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_script_include_92fbea031b909850bfd6422dbc4bcba2</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-12 14:43:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>you</name>
+        <password>B6cmf4UoQvfcpplQf6ru8FehfCv7RLOC</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-07 13:57:29</sys_created_on>
+        <sys_id>f753e0471be890107bd3dce9bc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>you</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_f753e0471be890107bd3dce9bc4bcba6</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-07 13:57:29</sys_updated_on>
+        <username>you.P04865@jsol.co.jp</username>
+    </sys_auth_profile_basic>
+</record_update>

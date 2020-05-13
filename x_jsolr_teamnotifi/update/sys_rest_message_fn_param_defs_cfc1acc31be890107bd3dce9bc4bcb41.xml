@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE">
+        <name>channel_name</name>
+        <order>100</order>
+        <rest_message_function display_value="Get Notification">3b17a47b1bd418507bd3dce9bc4bcb45</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-07 13:51:21</sys_created_on>
+        <sys_id>cfc1acc31be890107bd3dce9bc4bcb41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>channel_name</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_cfc1acc31be890107bd3dce9bc4bcb41</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-07 13:52:52</sys_updated_on>
+        <value>servicenownotification</value>
+    </sys_rest_message_fn_param_defs>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="admin">59f0b43f53132300ee0dddeeff7b12a1</basic_auth_profile>
+        <basic_auth_user/>
+        <description>通知されたメッセージを検索する</description>
+        <name>getNotifications</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://jsoldev.service-now.com/api/x_jsolr_teamnotifi/notification/query</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-27 11:53:26</sys_created_on>
+        <sys_id>aaf6e87b1bd418507bd3dce9bc4bcb05</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>getNotifications</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_rest_message_aaf6e87b1bd418507bd3dce9bc4bcb05</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-07 13:58:13</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

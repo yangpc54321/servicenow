@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Who will recieve" section_id="c4d17d461bd8d450bfd6422dbc4bcb4a" sys_domain="global" table="x_jsolr_teamnotifi_rules" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team</element>
+            <position>0</position>
+            <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+            <sys_created_on>2020-04-22 06:50:56</sys_created_on>
+            <sys_id>efe1fd461bd8d450bfd6422dbc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Who will recieve" display_value="Who will recieve" name="x_jsolr_teamnotifi_rules" sys_domain="global" view="Default view">c4d17d461bd8d450bfd6422dbc4bcb4a</sys_ui_section>
+            <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+            <sys_updated_on>2020-04-22 06:50:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>channel</element>
+            <position>1</position>
+            <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+            <sys_created_on>2020-04-22 06:50:56</sys_created_on>
+            <sys_id>67e1fd461bd8d450bfd6422dbc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Who will recieve" display_value="Who will recieve" name="x_jsolr_teamnotifi_rules" sys_domain="global" view="Default view">c4d17d461bd8d450bfd6422dbc4bcb4a</sys_ui_section>
+            <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+            <sys_updated_on>2020-04-22 06:50:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Who will recieve</caption>
+            <header>false</header>
+            <name>x_jsolr_teamnotifi_rules</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+            <sys_created_on>2020-04-22 06:50:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4d17d461bd8d450bfd6422dbc4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Who will recieve</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+            <sys_update_name>sys_ui_section_c4d17d461bd8d450bfd6422dbc4bcb4a</sys_update_name>
+            <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+            <sys_updated_on>2020-04-22 06:50:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

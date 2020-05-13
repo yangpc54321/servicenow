@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Channels" max_length="40" name="x_jsolr_teamnotifi_channel" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Channel Name" mandatory="true" max_length="40" name="channel" type="string"/>
+        <element label="Incoming Webhook" mandatory="true" max_length="400" name="incoming_webhook" type="string"/>
+        <element label="Team Name" mandatory="true" max_length="32" name="team_name" reference="x_jsolr_teamnotifi_teams_info" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="team_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="transmission_status" table="x_jsolr_teamnotifi_notifications" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>transmission_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>送信エラー</label>
+            <language>en</language>
+            <name>x_jsolr_teamnotifi_notifications</name>
+            <sequence/>
+            <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+            <sys_created_on>2020-04-23 12:22:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4267042a1b981850bfd6422dbc4bcba4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+            <sys_updated_on>2020-04-23 12:23:10</sys_updated_on>
+            <value>error</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>transmission_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>送信成功</label>
+            <language>en</language>
+            <name>x_jsolr_teamnotifi_notifications</name>
+            <sequence/>
+            <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+            <sys_created_on>2020-04-23 12:22:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf57042a1b981850bfd6422dbc4bcb11</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+            <sys_updated_on>2020-04-23 12:23:15</sys_updated_on>
+            <value>success</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>transmission_status</element>
+            <name>x_jsolr_teamnotifi_notifications</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+            <sys_created_on>2020-04-23 12:22:28</sys_created_on>
+            <sys_id>ff05163c1b38501011e4ed3abc4bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>transmission_status</sys_name>
+            <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+            <sys_update_name>sys_choice_x_jsolr_teamnotifi_notifications_transmission_status</sys_update_name>
+            <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+            <sys_updated_on>2020-04-23 12:22:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

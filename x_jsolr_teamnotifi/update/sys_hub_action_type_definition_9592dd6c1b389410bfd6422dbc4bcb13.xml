@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>doxxxx</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>7192dd6c1b389410bfd6422dbc4bcb66</latest_snapshot>
+        <master_snapshot>b192dd6c1b389410bfd6422dbc4bcb76</master_snapshot>
+        <name>doXXXX</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-12 09:14:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9592dd6c1b389410bfd6422dbc4bcb13</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>doXXXX</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_9592dd6c1b389410bfd6422dbc4bcb13</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-12 09:14:30</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=9592dd6c1b389410bfd6422dbc4bcb13"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9592dd6c1b389410bfd6422dbc4bcb13"/>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>doxxxx</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>doXXXX</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="doXXXX">9592dd6c1b389410bfd6422dbc4bcb13</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-05-12 09:14:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b192dd6c1b389410bfd6422dbc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-05-12 09:14:30</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b192dd6c1b389410bfd6422dbc4bcb76"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b192dd6c1b389410bfd6422dbc4bcb76"/>
+</record_update>

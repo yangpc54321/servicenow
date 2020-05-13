@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map">
+    <sys_ws_query_parameter_map action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ws_query_parameter_map</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-24 13:18:52</sys_created_on>
+        <sys_id>04dd597e1b945850bfd6422dbc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5178d1ba1b945850bfd6422dbc4bcb56</sys_name>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_map_04dd597e1b945850bfd6422dbc4bcb6c</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-24 13:18:52</sys_updated_on>
+        <web_service_operation display_value="query">ee9195b61b945850bfd6422dbc4bcbfd</web_service_operation>
+        <web_service_query_parameter display_value="channel_name">5178d1ba1b945850bfd6422dbc4bcb56</web_service_query_parameter>
+    </sys_ws_query_parameter_map>
+</record_update>

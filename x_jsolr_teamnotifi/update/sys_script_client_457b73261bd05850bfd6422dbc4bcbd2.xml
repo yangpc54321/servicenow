@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>OnLoad際に行われる処理を記載する</description>
+        <field>condition</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Rule Form OnLoad Event Handler</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var tableName = g_form.getValue('assignment_channel');
+    var ga = new GlideAjax('AjaxGetColumnName');
+    ga.addParam('sysparm_name', 'getColumnName');
+    ga.addParam('sysparm_table_name', tableName);
+    ga.getXML(rulesOnLoadCallBack);
+}
+
+function rulesOnLoadCallBack(response) {
+    var fieldString = response.responseXML.documentElement.getAttribute('answer');
+    var fieldArr = fieldString.split(',');
+    for (var i = 0; i < fieldArr.length; i++) {
+        jslog('fieldArr:' + fieldArr[i]);
+        g_form.addOption('fields', fieldArr[i], fieldArr[i]);
+    }
+	g_form.addOption('fieldlist','fields','fields');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>you.P04865@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-04-24 06:10:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>457b73261bd05850bfd6422dbc4bcbd2</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Rule Form OnLoad Event Handler</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JIM Notification " source="x_jsolr_teamnotifi">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JIM Notification ">d72a8a311bd0d450bfd6422dbc4bcbb7</sys_scope>
+        <sys_update_name>sys_script_client_457b73261bd05850bfd6422dbc4bcbd2</sys_update_name>
+        <sys_updated_by>you.P04865@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-04-27 10:14:03</sys_updated_on>
+        <table>x_jsolr_teamnotifi_rules</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
